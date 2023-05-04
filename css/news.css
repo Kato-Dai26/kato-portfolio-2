@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.mainvisual{
+  background-image: url(../img/pexels-the-world-hopper-1851481.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.news{
+  padding: 60px 0;
+}
+
+.news-list{
+  margin-top: 30px;
+}
+
+.news-list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.news-list li + li{
+  margin-top: 30px;
+}
+
+.news-pic{
+  width: 45%;
+}
+
+.news-pic img{
+  width: 100%;
+}
+
+.news-txt{
+  width: 50%;
+}
+
+.news-txt h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.news-txt p:first-of-type{
+  margin: 15px 0;
+}
+
+.news-txt p:last-of-type{
+  font-size: 12px;
+}
+
+@media(max-width:600px){
+
+  .news-list{
+    box-sizing: border-box;
+    padding: 0 30px;
+    margin-top: 30px;
+  }
+
+  .news-list li{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .news-list li + li{
+    margin-top: 30px;
+  }
+  
+  .news-pic{
+    width: 100%;
+  }
+  
+  .news-pic img{
+    width: 100%;
+  }
+  
+  .news-txt{
+    width: 100%;
+  }
+
+  .news-txt h3{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .news-txt p:first-of-type{
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  .news-txt p:last-of-type{
+    font-size: 8px;
+  }
+}

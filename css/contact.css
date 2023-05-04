@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+.mainvisual{
+  background-image: url(../img/pexels-cátia-matos-984888.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 50vh;
+}
+
+.contact{
+  padding: 40px 0;
+  background-color: rgb(237, 231, 231);
+  text-align: center;
+}
+
+.contact p{
+  margin: 20px 0;
+}
+
+input{
+  display: inline-block;
+  width: 300px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #333;
+}
+
+.sns-list{
+  margin-top: 20px;
+}
+
+.sns{
+  display: inline-block;
+  color: #fff;
+  width: 200px;
+  padding: 10px 0;
+}
+
+.twitter{
+  background-color: skyblue;
+}
+
+.facebook{
+  background-color: blue;
+}
+
+.bi{
+  margin-right: 10px;
+}
+
+@media(max-width:600px){
+
+  .contact p{
+    font-size: 13px;
+  }
+  
+  input{
+    width: 250px;
+  }
+  
+  .sns{
+    width: 150px;
+  }
+}

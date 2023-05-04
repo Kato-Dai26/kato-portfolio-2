@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KATO-TRAVEL</title>
+  
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@1.0.5/destyle.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Pacifico&family=Shippori+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+</head>
+<body>
+
+  <header class="header mainvisual">
+      <div class="wrapper">
+        <div class="header-sp">
+          <nav>
+            <ul class="menu-list">
+              <li><a href="index.html">TOP</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="product.html">PRODUCT</a></li>
+              <li><a href="news.html">NEWS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </nav>
+          <p><a href="index.html">MENU</a></p>
+          <div class="burger"></div>
+        </div>
+
+        <div class="header-pc">
+          <h1><a href="index.html">kato-travel</a></h1>
+          <nav>
+            <ul>
+              <li><a href="index.html">TOP</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <li><a href="product.html">PRODUCT</a></li>
+              <li><a href="news.html">NEWS</a></li>
+              <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section class="contact">
+        <h2 class="site-title">CONTACT</h2>
+        <p>ご質問やご要望などは下記のEmailかSNSでご対応させて頂きます。</p>
+        <form action="">
+          <label for="">Email</label>
+          <input type="email" placeholder="example@gmail.com">
+        </form>
+        <div class="sns-list">
+          <a href="#" class="twitter sns">
+            <span><i class="bi bi-twitter"></i></span>
+            twitter</a>
+          <a href="#" class="facebook sns">
+            <span><i class="bi bi-facebook"></i></span>
+            Facebook</a>
+        </div>
+      </section>
+      
+    </main>
+
+    <footer>
+      <nav class="footer_nav">
+        <ul>
+          <li class="footer_nav_list"><a href="index.html">TOP</a></li>
+          <li class="footer_nav_list"><a href="about.html">ABOUT</a></li>
+          <li class="footer_nav_list"><a href="product.html">PRODUCT</a></li>
+          <li class="footer_nav_list"><a href="news.html">NEWS</a></li>
+          <li class="footer_nav_list"><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="footer_bottom">
+        <h2><a href="index.html">kato-travel</a></h2>
+        <small>&copy;2023 01 25 kato-travel</small>
+      </div>
+  </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+    <script>
+      $(function(){
+        $('.burger').click(function(){
+          $('.burger').toggleClass('open')
+          $('.menu-list').toggleClass('open');
+          $('.menu-list').slideToggle();
+          $('.header-sp p').fadeToggle();
+        });
+      });
+    </script>
+</body>
+</html>

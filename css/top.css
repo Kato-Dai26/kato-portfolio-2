@@ -1,0 +1,244 @@
+@charset "UTF-8";
+
+.mainvisual{
+  background-image: url(../img/pexels-andrei-tanase-1271619.jpg),
+                    url(../img/pexels-cátia-matos-984888.jpg),              url(../img/pexels-porapak-apichodilok-346885.jpg),      url(../img/pexels-the-world-hopper-1851481.jpg),        url(../img/pexels-thành-trần-3788363.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  animation: bg-image 20S infinite;
+  height: 100vh;
+}
+
+@keyframes bg-image{
+  0%{
+    background-image: url(../img/pexels-andrei-tanase-1271619.jpg);
+  }
+
+  25%{
+    background-image: url(../img/pexels-cátia-matos-984888.jpg);
+  }
+
+  55%{
+    background-image: url(../img/pexels-porapak-apichodilok-346885.jpg);
+  }
+
+  80%{
+    background-image: url(../img/pexels-the-world-hopper-1851481.jpg);
+  }
+
+  100%{
+    background-image: url(../img/pexels-thành-trần-3788363.jpg);
+  }
+}
+
+.more{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.more_btn{
+  display: inline-block;
+  border: 2px solid #c6bdbd;
+  padding: 20px 40px;
+  color: #888;
+  font-size: 13px;
+}
+
+.about{
+  padding: 60px 0;
+  text-align: center;
+}
+
+.about-main{
+  font-family: 'Amatic SC', cursive;
+  padding: 30px 0;
+  font-size: 35px;
+  letter-spacing: 4px;
+}
+
+.about-sub{
+  letter-spacing: 2px;
+  line-height: 2rem;
+  padding-bottom: 30px;
+}
+
+.product{
+  padding: 60px 0;
+  background-color: rgb(237, 231, 231);
+}
+
+.product-list{
+  display: flex;
+  justify-content:center;
+  margin-top: 40px;
+}
+
+.product-list li{
+  margin: 0 60px;
+}
+
+.product-pic{
+  width: 150px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
+.product-pic img{
+  width: 100%;
+  height: 200px;
+  border: 1px solid #333;
+  border-radius: 0 30px 30px 0;
+  box-shadow: 10px 7px 7px #fff;
+  object-fit: cover;
+}
+
+.news{
+  padding: 60px 0;
+}
+
+.news-list li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 20px 0;
+}
+
+.news-list li + li{
+  margin-top: 20px;
+}
+
+.news-pic{
+  width: 45%;
+}
+
+.news-pic img{
+  width: 100%;
+}
+
+.news-txt{
+  width: 50%;
+}
+
+.news-txt h3{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.news-txt p:first-of-type{
+  margin: 15px 0;
+}
+
+.news-txt p:last-of-type{
+  font-size: 12px;
+}
+
+.contact{
+  padding: 40px 0;
+  background-color: rgb(237, 231, 231);
+  text-align: center;
+}
+
+.contact p{
+  margin: 20px 0;
+}
+
+input{
+  display: inline-block;
+  width: 300px;
+  padding: 10px 0 10px 10px;
+  border: 1px solid #333;
+}
+
+.sns-list{
+  margin-top: 20px;
+}
+
+.sns{
+  display: inline-block;
+  color: #fff;
+  width: 200px;
+  padding: 10px 0;
+}
+
+.twitter{
+  background-color: skyblue;
+}
+
+.facebook{
+  background-color: blue;
+}
+
+.bi{
+  margin-right: 10px;
+}
+
+
+@media(max-width:600px){
+
+  .about{
+    box-sizing: border-box;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .about-main{
+    font-size: 25px;
+  }
+
+  .about-sub{
+    letter-spacing: 2px;
+    line-height: 2rem;
+    font-size: 14px;
+  }
+
+  .about p:last-of-type{
+    font-size: 15px;
+  }
+
+  .product-list{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+  }
+
+  .product-list li{
+    margin:0 auto;
+  }
+
+  .product-list li + li{
+    margin-top: 30px;
+  }
+
+  .product-txt{
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .news-txt h3{
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .news-txt p:first-of-type{
+    font-size: 13px;
+    margin: 8px 0;
+  }
+  
+  .news-txt p:last-of-type{
+    font-size: 8px;
+  }
+
+  .contact p{
+    font-size: 13px;
+  }
+  
+  input{
+    width: 250px;
+  }
+  
+  .sns{
+    width: 150px;
+  }
+}
