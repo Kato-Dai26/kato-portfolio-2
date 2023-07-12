@@ -174,7 +174,7 @@ input{
 }
 
 
-@media(max-width:600px){
+@media(max-width:680px){
 
   .about{
     box-sizing: border-box;
@@ -232,6 +232,7 @@ input{
 
   .contact p{
     font-size: 13px;
+    font-size: 0.7rem;
   }
   
   input{
