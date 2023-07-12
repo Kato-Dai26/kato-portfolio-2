@@ -10,7 +10,7 @@
 }
 
 .news{
-  padding: 60px 0;
+  padding: 60px 20px;
 }
 
 .news-list{
@@ -53,6 +53,11 @@
 }
 
 @media(max-width:600px){
+
+  .news{
+    padding: 60px 0;
+  }
+  
 
   .news-list{
     box-sizing: border-box;

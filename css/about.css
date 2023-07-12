@@ -69,12 +69,12 @@
 
 .about_activity_text{
   width: 250px;
-  margin-left: 10px;
+  margin-left: 20px;
 }
 
 
 .about_activity h3{
-  margin-bottom: 60px;
+  margin: 20px 0 60px;
   font-weight: bold;
   font-size: 23px;
 }
@@ -84,7 +84,7 @@
   line-height: 2rem;
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
 
   .about .about-main{
     font-size: 24px;
